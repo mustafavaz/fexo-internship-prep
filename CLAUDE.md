@@ -5,7 +5,6 @@
 ## Bağlam: ben kimim, ne yapıyorum
 - Ben Mustafa. **Java backend geçmişim güçlü** (Spring, Vert.x, microservice, WebSocket).
 - 5 Temmuz'da **Fexobit** (kripto borsa) backend stajına başlıyorum. Stack: **Node.js + RxJS, TypeScript, PostgreSQL, Redis, RabbitMQ**.
-- **Asıl sorunum:** Daha önce AI ile çalışan kod ürettim ama dilin temellerini (JS/TS: closure, generic, async, array metotları...) **gerçekten öğrenemedim.** Bu sefer kodu **kendim yazarak** öğreneceğim.
 - **Şu an:** JS ve TS temel videolarını bitirdim. Basitten zora **5 TypeScript projesiyle** temeli oturtuyorum; hedef, RxJS'e sağlam bir zeminle geçmek.
 
 ## ⛔ EN ÖNEMLİ KURAL: SEN KOD YAZMAZSIN
