@@ -12,7 +12,7 @@ Coming from a Java backend background — five progressively harder TypeScript p
 | 2 | Mini Order Book | closures, state management, sorting | ✅ done|
 | 3 | Live Price Fetcher | `async`/`await`, `Promise`, `fetch`, typing external APIs | ✅ done|
 | 4 | Wallet REST API | Node + Express, routing, JSON API, modules | ✅ done |
-| 5 | Live Trade Stream + Subscribers | event-driven, streams, callbacks — the gateway to RxJS | working on |
+| 5 | Live Trade Stream + Subscribers | event-driven, streams, callbacks — the gateway to RxJS | ✅ done |
 
 ## How this repo works
 
