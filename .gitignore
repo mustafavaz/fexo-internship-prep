@@ -1,6 +1,8 @@
 node_modules/
 dist/
+proje-6-10-yol-haritasi.md
 *.js
 *.js.map
 *.d.ts
 *.d.ts.map
+

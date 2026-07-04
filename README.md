@@ -16,7 +16,7 @@ Coming from a Java backend background — five progressively harder TypeScript p
 
 ## Next: Projects 6–10 — from RxJS to the real exchange stack
 
-Full briefs in [proje-6-10-yol-haritasi.md](./proje-6-10-yol-haritasi.md). Built alongside the internship, each on top of the last.
+Built alongside the internship, each on top of the last.
 
 | # | Project | Concepts | Status |
 |---|---------|----------|--------|
