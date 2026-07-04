@@ -12,7 +12,19 @@ Coming from a Java backend background — five progressively harder TypeScript p
 | 2 | Mini Order Book | closures, state management, sorting | ✅ done|
 | 3 | Live Price Fetcher | `async`/`await`, `Promise`, `fetch`, typing external APIs | ✅ done|
 | 4 | Wallet REST API | Node + Express, routing, JSON API, modules | ✅ done |
-| 5 | Live Trade Stream + Subscribers | event-driven, streams, callbacks — the gateway to RxJS | ✅ done |
+| 5 | [Live Trade Stream + Subscribers](./project-5-trade-stream) | event-driven, streams, callbacks — the gateway to RxJS | ✅ done |
+
+## Next: Projects 6–10 — from RxJS to the real exchange stack
+
+Full briefs in [proje-6-10-yol-haritasi.md](./proje-6-10-yol-haritasi.md). Built alongside the internship, each on top of the last.
+
+| # | Project | Concepts | Status |
+|---|---------|----------|--------|
+| 6 | Reactive Trade Stream (RxJS) | `Observable`, `Subject`, `map`/`filter`/`scan`, hot vs cold, unsubscribe | ⏳ next |
+| 7 | Live Market Data Pipeline | WebSocket → RxJS, `bufferTime`, `retry`, `share` multicasting | planned |
+| 8 | Redis Order Book & Cache | ZSET order book, pub/sub, TTL, rate limiting | planned |
+| 9 | RabbitMQ Service Split | publish/consume, ack/nack, durability, dead-letter queue | planned |
+| 10 | Capstone: Mini Exchange | NestJS, PostgreSQL transactions & locking, full stack integration | planned |
 
 ## How this repo works
 
