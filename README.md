@@ -20,7 +20,7 @@ Built alongside the internship, each on top of the last.
 
 | # | Project | Concepts | Status |
 |---|---------|----------|--------|
-| 6 | Reactive Trade Stream (RxJS) | `Observable`, `Subject`, `map`/`filter`/`scan`, hot vs cold, unsubscribe | ⏳ next |
+| 6 | Reactive Trade Stream (RxJS) | `Observable`, `Subject`, `map`/`filter`/`scan`, hot vs cold, unsubscribe | ✅ done |
 | 7 | Live Market Data Pipeline | WebSocket → RxJS, `bufferTime`, `retry`, `share` multicasting | planned |
 | 8 | Redis Order Book & Cache | ZSET order book, pub/sub, TTL, rate limiting | planned |
 | 9 | RabbitMQ Service Split | publish/consume, ack/nack, durability, dead-letter queue | planned |
