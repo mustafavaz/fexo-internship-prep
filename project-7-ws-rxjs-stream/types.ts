@@ -25,3 +25,14 @@ export interface Trade {
     amount: number;
 }
 
+export function convertToTrade(rawTrade: BybitRawTrade): Trade {
+    const trade: Trade = {
+        symbol: rawTrade.s,
+        price: Number(rawTrade.p),
+        amount: Number(rawTrade.v),
+        side: rawTrade.S === 'Buy' ? 'buy' : 'sell',
+        id: rawTrade.i
+    }
+    return trade;
+}
+
