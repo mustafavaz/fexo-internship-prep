@@ -2,6 +2,7 @@ node_modules/
 dist/
 docs
 .idea
+scratch.js
 .DS_Store
 *.js.map
 *.d.ts

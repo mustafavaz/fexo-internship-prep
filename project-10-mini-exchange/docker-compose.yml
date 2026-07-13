@@ -1,0 +1,24 @@
+services:
+  rabbit:
+    image: rabbitmq:4-management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+  db:
+    image: postgres:16
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_PASSWORD: example
+    volumes:
+      - db-data:/var/lib/postgresql/data
+
+
+  cache:
+    image: redis:7
+    ports:
+      - "6379:6379"
+
+
+volumes:
+    db-data:
